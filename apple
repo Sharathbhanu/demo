@@ -1,0 +1,28 @@
+balance=100
+fruits=["apple", "orange", "mango"]
+fruits_cost=[1,0.2,3]
+while balance > 0:
+    type_fruit=input("what do you like to buy?")
+    
+    
+    for i in range(len(fruits)):
+        if(fruits[i] == type_fruit):
+            num_fruit=int(input("how many"+type_fruit+"?"))
+            cost=fruits_cost[i]*num_fruit
+            balance=balance-cost
+            if balance < 0:
+                print("your balance is low")
+                break
+            print("number of",fruits[i],":",num_fruit)
+            print("cost is", cost)
+            print("your balance is:",balance)
+            print(".......................................................")
+        else:
+            for i in range(len(fruits)):
+                if(fruits[i] != type_fruit):
+                    print("invalid")
+                    break
+    
+            
+        
+       
