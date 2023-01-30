@@ -21,7 +21,7 @@ while balance > 0:
             for i in range(len(fruits)):
                 if(fruits[i] != type_fruit):
                     print("invalid")
-                    break
+                    
     
             
         
