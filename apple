@@ -3,7 +3,7 @@ fruits=["apple", "orange", "mango"]
 fruits_cost=[1,0.2,3]
 while balance > 0:
     type_fruit=input("what do you like to buy?")
-    
+    #ss8shy65
     
     for i in range(len(fruits)):
         if(fruits[i] == type_fruit):
